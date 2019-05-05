@@ -1,0 +1,24 @@
+# do control.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_vlg_sample_tst
+# -- Compiling module control_vlg_check_tst
+# -- Compiling module control_vlg_vec_tst
+# 
+# Top level modules:
+# 	control_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.control_vlg_vec_tst 
+# Loading work.control_vlg_vec_tst
+# Loading work.control
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.control_vlg_sample_tst
+# Loading work.control_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(381)
+#    Time: 1 us  Iteration: 0  Instance: /control_vlg_vec_tst/tb_out
