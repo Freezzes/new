@@ -1,0 +1,312 @@
+$comment
+	File created using the following command:
+		vcd file shifter.msim.vcd -direction
+$end
+$date
+	Wed Apr 10 21:59:37 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module shifter_vlg_vec_tst $end
+$var reg 32 ! x [31:0] $end
+$var wire 1 " y [31] $end
+$var wire 1 # y [30] $end
+$var wire 1 $ y [29] $end
+$var wire 1 % y [28] $end
+$var wire 1 & y [27] $end
+$var wire 1 ' y [26] $end
+$var wire 1 ( y [25] $end
+$var wire 1 ) y [24] $end
+$var wire 1 * y [23] $end
+$var wire 1 + y [22] $end
+$var wire 1 , y [21] $end
+$var wire 1 - y [20] $end
+$var wire 1 . y [19] $end
+$var wire 1 / y [18] $end
+$var wire 1 0 y [17] $end
+$var wire 1 1 y [16] $end
+$var wire 1 2 y [15] $end
+$var wire 1 3 y [14] $end
+$var wire 1 4 y [13] $end
+$var wire 1 5 y [12] $end
+$var wire 1 6 y [11] $end
+$var wire 1 7 y [10] $end
+$var wire 1 8 y [9] $end
+$var wire 1 9 y [8] $end
+$var wire 1 : y [7] $end
+$var wire 1 ; y [6] $end
+$var wire 1 < y [5] $end
+$var wire 1 = y [4] $end
+$var wire 1 > y [3] $end
+$var wire 1 ? y [2] $end
+$var wire 1 @ y [1] $end
+$var wire 1 A y [0] $end
+$var wire 1 B sampler $end
+$scope module i1 $end
+$var wire 1 C gnd $end
+$var wire 1 D vcc $end
+$var wire 1 E unknown $end
+$var tri1 1 F devclrn $end
+$var tri1 1 G devpor $end
+$var tri1 1 H devoe $end
+$var wire 1 I x[30]~input_o $end
+$var wire 1 J x[31]~input_o $end
+$var wire 1 K y[0]~output_o $end
+$var wire 1 L y[1]~output_o $end
+$var wire 1 M y[2]~output_o $end
+$var wire 1 N y[3]~output_o $end
+$var wire 1 O y[4]~output_o $end
+$var wire 1 P y[5]~output_o $end
+$var wire 1 Q y[6]~output_o $end
+$var wire 1 R y[7]~output_o $end
+$var wire 1 S y[8]~output_o $end
+$var wire 1 T y[9]~output_o $end
+$var wire 1 U y[10]~output_o $end
+$var wire 1 V y[11]~output_o $end
+$var wire 1 W y[12]~output_o $end
+$var wire 1 X y[13]~output_o $end
+$var wire 1 Y y[14]~output_o $end
+$var wire 1 Z y[15]~output_o $end
+$var wire 1 [ y[16]~output_o $end
+$var wire 1 \ y[17]~output_o $end
+$var wire 1 ] y[18]~output_o $end
+$var wire 1 ^ y[19]~output_o $end
+$var wire 1 _ y[20]~output_o $end
+$var wire 1 ` y[21]~output_o $end
+$var wire 1 a y[22]~output_o $end
+$var wire 1 b y[23]~output_o $end
+$var wire 1 c y[24]~output_o $end
+$var wire 1 d y[25]~output_o $end
+$var wire 1 e y[26]~output_o $end
+$var wire 1 f y[27]~output_o $end
+$var wire 1 g y[28]~output_o $end
+$var wire 1 h y[29]~output_o $end
+$var wire 1 i y[30]~output_o $end
+$var wire 1 j y[31]~output_o $end
+$var wire 1 k x[0]~input_o $end
+$var wire 1 l x[1]~input_o $end
+$var wire 1 m x[2]~input_o $end
+$var wire 1 n x[3]~input_o $end
+$var wire 1 o x[4]~input_o $end
+$var wire 1 p x[5]~input_o $end
+$var wire 1 q x[6]~input_o $end
+$var wire 1 r x[7]~input_o $end
+$var wire 1 s x[8]~input_o $end
+$var wire 1 t x[9]~input_o $end
+$var wire 1 u x[10]~input_o $end
+$var wire 1 v x[11]~input_o $end
+$var wire 1 w x[12]~input_o $end
+$var wire 1 x x[13]~input_o $end
+$var wire 1 y x[14]~input_o $end
+$var wire 1 z x[15]~input_o $end
+$var wire 1 { x[16]~input_o $end
+$var wire 1 | x[17]~input_o $end
+$var wire 1 } x[18]~input_o $end
+$var wire 1 ~ x[19]~input_o $end
+$var wire 1 !! x[20]~input_o $end
+$var wire 1 "! x[21]~input_o $end
+$var wire 1 #! x[22]~input_o $end
+$var wire 1 $! x[23]~input_o $end
+$var wire 1 %! x[24]~input_o $end
+$var wire 1 &! x[25]~input_o $end
+$var wire 1 '! x[26]~input_o $end
+$var wire 1 (! x[27]~input_o $end
+$var wire 1 )! x[28]~input_o $end
+$var wire 1 *! x[29]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+xB
+0C
+1D
+xE
+1F
+1G
+1H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+$end
+#100000
+b1 !
+0B
+1k
+1M
+1?
+#200000
+b11 !
+b10 !
+1B
+0k
+1l
+0M
+1N
+0?
+1>
+#300000
+b11 !
+0B
+1k
+1M
+1?
+#400000
+b111 !
+b101 !
+b100 !
+1B
+0k
+0l
+1m
+0M
+0N
+1O
+0?
+0>
+1=
+#500000
+b101 !
+0B
+1k
+1M
+1?
+#600000
+b111 !
+b110 !
+1B
+0k
+1l
+0M
+1N
+0?
+1>
+#700000
+b111 !
+0B
+1k
+1M
+1?
+#800000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+1B
+0k
+0l
+0m
+1n
+0M
+0N
+0O
+1P
+0?
+0>
+0=
+1<
+#900000
+b1001 !
+0B
+1k
+1M
+1?
+#1000000
